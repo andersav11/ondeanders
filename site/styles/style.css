@@ -1,0 +1,162 @@
+.destaque:hover {outline-style: dotted; color:red;}
+
+#frame {
+	width:1366px; margin:0 auto; background:#fff;
+	}
+
+#inFrame {
+  float:center;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 1366px;
+  z-index: 20;
+}
+#titulo {
+  padding-left: 200px;
+  font-size: 51px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  z-index: 19;
+}
+.conteudo {
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  z-index: 18;
+}
+#lampada {
+  display: inline-block;
+  background-image: url("lampada.png");
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 51px;
+  height: 66px;
+  z-index: 16;
+}
+/* .ipsis_verbis__ipsis_literis__ipsis_verbis__ipsi {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 661px;
+  top: 148.684px;
+  width: 582px;
+  height: 79px;
+  z-index: 17;
+}
+*/
+
+#bio {
+  background-image: url("bio.png");
+  position: absolute;
+  left: 190px;
+  top: 180px;
+  width: 444px;
+  height: 269px;
+  z-index: 15;
+}
+
+#foto_bio {
+  background-image: url("foto_bio.png");
+  position: absolute;
+  left: 656px;
+  top: 146px;
+  width: 600px;
+  height: 330px;
+  z-index: 14;
+}
+
+
+#video {
+  background-image: url("video.png");
+  position: absolute;
+  left: 646px;
+  top: 136px;
+  width: 622px;
+  height: 364px;
+  z-index: 14;
+}
+#audio {
+  background-image: url("audio.png");
+  position: absolute;
+  left: 11px;
+  top: 375px;
+  width: 1344px;
+  height: 125px;
+  z-index: 12;
+}
+#prog {
+  background-image: url("prog.png");
+  position: absolute;
+  left: 98px;
+  top: 300px;
+  width: 80px;
+  height: 200px;
+  z-index: 13;
+}
+#texto {
+  background-image: url("texto.png");
+  position: absolute;
+  left: 288px;
+  top: 548px;
+  width: 250px;
+  height: 75px;
+  z-index: 11;
+}
+#teatro {
+  background-image: url("teatro.png");
+  position: absolute;
+  left: 44px;
+  top: 531px;
+  width: 150px;
+  height: 128px;
+  z-index: 10;
+}
+#sonoplastia {
+  background-image: url("sonoplastia.png");
+  background-position: center;
+  position: absolute;
+  left: 703px;
+  top: 525px;
+  width: 500px;
+  height: 98px;
+  z-index: 9;
+}
+#contato {
+  background-image: url("contato.png");
+  position: absolute;
+  left: 1280px;
+  top: 569px;
+  width: 51px;
+  height: 76px;
+  z-index: 8;
+}
+#easteregg {
+  background-image: url("easteregg.png");
+  position: absolute;
+  left: 570px;
+  top: 555px;
+  width: 25px;
+  height: 50px;
+  z-index: 3;
+}
+#mesa {
+  background-image: url("mesa.png");
+  position: relative;
+  left: 0px;
+  top: -100px;
+  width: 1366px;
+  height: 1366px;
+  z-index: 1;
+}
